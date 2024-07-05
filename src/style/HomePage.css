@@ -1,0 +1,27 @@
+
+.todo-list {
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.todo-list .todo td {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 7px;
+    margin-left: 30px;
+}
+
+.todo-list .todo:nth-child(even) {
+    background-color: rgb(233, 233, 233)
+}
+
+.todo-list .todo .isComplete {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 8px;
+}
