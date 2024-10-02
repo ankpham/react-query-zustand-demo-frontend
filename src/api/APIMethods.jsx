@@ -9,12 +9,3 @@ export const useTodos = () =>
               return res.data;
           }),
     })
-
-export const addTodos = () => 
-    useQuery({
-        queryKey: ['todos'],
-        queryFn: () =>
-            axios.post("http://localhost:8080/add-todos").then((res) => {
-                return useTodos().data;
-            }),
-    })
